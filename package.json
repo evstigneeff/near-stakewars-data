@@ -1,0 +1,19 @@
+{
+  "name": "near-stakewars-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "dependencies": {
+    "hbs": "^4.2.0",
+    "near-api-js": "^0.45.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "startDev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
